@@ -1,0 +1,1 @@
+import{bq as n,g as s,br as u,V as o}from"./DSkA1Rdm.js";const c=n(async(r,i)=>{let t,a;const e=s();if(e.token.value&&!e.user.value&&typeof e.fetchCurrentUser=="function"&&([t,a]=u(()=>e.fetchCurrentUser()),await t,a()),!e.isAdmin.value)return console.warn(`Доступ к ${r.path} заблокирован: нет прав администратора.`),o("/")});export{c as default};

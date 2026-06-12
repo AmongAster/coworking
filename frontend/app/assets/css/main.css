@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+/* Custom theme colors for dark mode coworking app */
+:root {
+  --ui-primary: var(--color-indigo-500);
+}
+
+/* Slate/zinc dark theme */
+html {
+  color-scheme: dark;
+}
