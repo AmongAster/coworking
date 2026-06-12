@@ -20,7 +20,7 @@ npm install
 ```bash
 npm start
 ```
-3. Сервер будет доступен по адресу http://localhost:3000
+3. Сервер будет доступен по адресу http://localhost:5000
 
 ## настройка frontend
 1. Задите в директории frontend
